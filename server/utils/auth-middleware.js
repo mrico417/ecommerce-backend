@@ -1,4 +1,4 @@
-const { fetchAccountByToken } = require('./controllers/auth-controller');
+const { fetchAccountByToken } = require('../controllers/auth-controller');
 
 
 const isLoggedIn = async(req,res,next) => {
